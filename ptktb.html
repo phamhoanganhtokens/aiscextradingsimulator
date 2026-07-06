@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích & Chiến Lược Giao Dịch - AI Trading Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        offwhite: '#fcfcfc',
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #e5e7eb; font-family: 'Times New Roman', Times, serif; }
+        .document-container { max-width: 950px; margin: 2rem auto; background: white; padding: 3rem; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #002366; font-weight: 700; }
+        p { text-align: justify; color: #4a4a4a; line-height: 1.6; }
+        .table-border { border: 1px solid #e5e7eb; }
+        .header-bg { background-color: #002366; }
+        @media (max-width: 768px) { .document-container { padding: 1.5rem; margin: 0; } }
+    </style>
+</head>
+<body class="py-8">
+
+    <article class="document-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-6 mb-8">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h2 class="text-xl font-bold text-navy uppercase tracking-widest">AI Software Development</h2>
+                    <p class="text-sm text-slate uppercase italic">AI Trading Simulator</p>
+                </div>
+                <div class="text-right">
+                    <a href="www.phamhoanganhtokens.com" class="text-navy font-bold hover:underline">www.phamhoanganhtokens.com</a>
+                    <p class="text-sm text-slate">Ngày: 06/07/2026</p>
+                </div>
+            </div>
+            <h1 class="text-3xl text-center mt-10 uppercase">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-navy pl-3">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-slate-50 border border-navy rounded">
+                    <p class="text-xs uppercase text-slate">Tổng Tài Sản (NAV)</p>
+                    <p class="text-xl font-bold text-navy">1,087,596,425 VND</p>
+                </div>
+                <div class="p-4 bg-slate-50 border border-navy rounded">
+                    <p class="text-xs uppercase text-slate">Tỷ Suất Sinh Lời (PnL)</p>
+                    <p class="text-xl font-bold text-green-700">+8.75%</p>
+                </div>
+                <div class="p-4 bg-slate-50 border border-navy rounded">
+                    <p class="text-xs uppercase text-slate">Trạng Thái</p>
+                    <p class="text-xl font-bold text-navy">100% Tiền Mặt</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-navy pl-3">2. Phân tích thị trường</h2>
+            <p class="mb-4"><strong>Góc nhìn Kỹ thuật:</strong> Các tài sản chủ chốt như SBTC (Bitcoin) đang duy trì xu hướng tích lũy bên trên vùng hỗ trợ 1,650,000,000 VND (~60k USD). SETH (Ethereum) đang thể hiện tín hiệu nén giá bên dưới đường MA50, một sự bứt phá tại đây có thể kích hoạt dòng tiền vào nhóm Altcoin.</p>
+            <p><strong>Góc nhìn Tâm lý:</strong> Chỉ số Fear & Greed ở mức 59 (Tham lam nhẹ). Tâm lý thị trường đang chuyển biến tích cực nhờ các thông tin vĩ mô từ FED, tuy nhiên vẫn tồn tại sự thận trọng do áp lực từ các quy định pháp lý quốc tế (Mỹ và EU).</p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-navy pl-3">3. Đánh giá rủi ro</h2>
+            <table class="w-full text-left border-collapse table-border">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="p-3 border">Hạng mục</th>
+                        <th class="p-3 border">Đánh giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-3 border font-bold">Rủi ro mất vốn</td>
+                        <td class="p-3 border text-green-600">0% (Vị thế tiền mặt)</td>
+                    </tr>
+                    <tr>
+                        <td class="p-3 border font-bold">Chi phí cơ hội</td>
+                        <td class="p-3 border">
+                            <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-sm font-bold">Rất cao</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-navy pl-3">4. Chiến lược tối ưu</h2>
+            <p class="mb-4">Triển khai chiến lược "Lõi và Vệ tinh" (Core-Satellite):</p>
+            <ul class="list-disc ml-6 space-y-2 mb-4 text-slate">
+                <li><strong>Danh mục Lõi (60%):</strong> SBTC, SETH, SSOL, SBNB (Tính thanh khoản và ổn định cao).</li>
+                <li><strong>Danh mục Vệ tinh (15%):</strong> SAVAX, STRX, STON (Tính biến động cao - High Beta) để tối ưu lợi nhuận đột biến.</li>
+            </ul>
+        </section>
+
+        <!-- 5. Kế hoạch thực thi -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-navy pl-3">5. Kế hoạch thực thi</h2>
+            <ol class="list-decimal ml-6 space-y-3 text-slate">
+                <li>Giải ngân 50% khối lượng mục tiêu cho các vị thế "Lõi" thông qua lệnh Limit tại vùng hỗ trợ.</li>
+                <li>Sử dụng 15% quỹ tiền mặt để đặt lệnh chờ (Buy Limit) tại các vùng giá sâu cho nhóm Altcoin.</li>
+                <li>Cập nhật nhật ký giao dịch và theo dõi sát sao chỉ số Relative Strength (RS) để điều chuyển vốn.</li>
+            </ol>
+        </section>
+
+        <!-- 6. Kết luận & Dự báo -->
+        <section class="mb-10 bg-gray-50 p-6 border-l-4 border-green-600">
+            <h2 class="text-2xl mb-4">6. Kết luận & Dự báo</h2>
+            <p>Hệ thống hiện ở trạng thái sẵn sàng cao độ. Dự báo thị trường sẽ có sự phân hóa mạnh trong tuần tới. Chỉ số tin cậy của mô hình hiện đạt mức: <strong>85/100</strong>.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <div class="mb-6">
+                <p class="font-bold text-navy">Phạm Hoàng Anh</p>
+                <p class="italic text-slate">Master AI Agent của AI Software Development</p>
+            </div>
+            
+            <div class="p-4 border border-gray-300 bg-gray-50 text-xs text-slate" style="text-align: justify;">
+                <strong>Miễn trừ trách nhiệm:</strong> Báo cáo này được tạo ra cho mục đích giáo dục và thực hành trong môi trường giả lập SCEX Simulator. Kết quả giao dịch trên simulator không đảm bảo lợi nhuận trong thực tế. Nhà đầu tư cần tự chịu trách nhiệm về các quyết định tài chính cá nhân.
+            </div>
+        </footer>
+    </article>
+
+</body>
+</html>
