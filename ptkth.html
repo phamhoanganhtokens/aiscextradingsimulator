@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f3f4f6;
+            color: #4a4a4a;
+        }
+        .report-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 4rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #002366;
+            font-weight: bold;
+        }
+        .text-justify {
+            text-align: justify;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 12px;
+        }
+        th {
+            background-color: #f9fafb;
+        }
+        @media (max-width: 768px) {
+            .report-container {
+                padding: 1.5rem;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="report-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy-blue pb-6 mb-8 text-center">
+            <h2 class="text-sm uppercase tracking-widest text-slate-500">AI Software Development</h2>
+            <h1 class="text-3xl font-bold my-2">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="text-sm font-medium">Sản phẩm: AI Trading Simulator | <a href="www.phamhoanganhtokens.com" class="text-[#002366] underline">www.phamhoanganhtokens.com</a></p>
+            <div class="mt-4 text-xs italic text-slate-500">Người thực hiện: Master AI Agent Pham Hoang Anh | Cập nhật: 08/07/2026</div>
+        </header>
+
+        <!-- 1. Tóm tắt tình hình tài khoản -->
+        <section class="mb-10">
+            <h2 class="text-xl border-l-4 border-[#002366] pl-3 mb-4">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-50 p-4 border border-slate-200">
+                    <p class="text-sm text-slate-500 uppercase">Giá trị tài sản ròng (NAV)</p>
+                    <p class="text-2xl font-bold text-[#002366]">1,070,017,536 VND</p>
+                </div>
+                <div class="bg-slate-50 p-4 border border-slate-200">
+                    <p class="text-sm text-slate-500 uppercase">PnL trong ngày</p>
+                    <p class="text-2xl font-bold text-red-600">-27,417,959 VND (-2.50%)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-xl border-l-4 border-[#002366] pl-3 mb-4">2. Phân tích thị trường</h2>
+            <p class="text-justify leading-relaxed">
+                Bức tranh toàn cảnh đang nằm trong xu hướng giảm (Bearish pullback). Dòng tiền cho thấy sự phân hóa rõ rệt về mức độ rủi ro: các tài sản Core như SBTC (-0.46%) và SETH (-0.82%) đang tạo lập các vùng đệm giá tốt hơn hẳn so với thị trường chung. Ngược lại, nhóm Altcoin vệ tinh đang chịu áp lực bán tháo diện rộng, gãy các hỗ trợ ngắn hạn (SSOL -3.08%, SADA -3.59%, SXRP -3.10%). Thị trường đang bao trùm bởi tâm lý e ngại (Risk-Off) từ áp lực chốt lời và cắt lỗ cục bộ. Hành vi "All-in" thể hiện sự tự tin thái quá vào một nhịp phục hồi chữ V (V-shape recovery).
+            </p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl border-l-4 border-[#002366] pl-3 mb-4">3. Đánh giá rủi ro</h2>
+            <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-4">
+                <span class="inline-block bg-red-500 text-white text-xs px-2 py-1 rounded">Rất cao</span>
+                <p class="mt-2 text-justify">Mức độ rủi ro hiện tại được đánh giá ở ngưỡng <strong>Cực kỳ Cao</strong>. Với 0 VND tiền mặt, danh mục mất khả năng phòng vệ chiến thuật. Nếu thị trường tiếp tục quét giá (flush) thêm 5-10%, danh mục sẽ đối mặt với rủi ro sụt giảm kép.</p>
+            </div>
+        </section>
+
+        <!-- 4. Chiến lược tối ưu -->
+        <section class="mb-10">
+            <h2 class="text-xl border-l-4 border-[#002366] pl-3 mb-4">4. Chiến lược tối ưu</h2>
+            <table class="text-sm">
+                <thead>
+                    <tr class="bg-slate-100">
+                        <th class="text-left">Nhóm</th>
+                        <th class="text-left">Tài sản</th>
+                        <th class="text-left">Tỷ trọng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Core (Lõi)</td>
+                        <td>SBTC, SETH</td>
+                        <td>52.7%</td>
+                    </tr>
+                    <tr>
+                        <td>Satellite (Vệ tinh)</td>
+                        <td>SADA, SDOT, SXRP, SSOL</td>
+                        <td>47.3%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl border-l-4 border-[#002366] pl-3 mb-4">5. Kế hoạch hành động (24-48H)</h2>
+            <ul class="list-decimal ml-5 space-y-2 text-justify">
+                <li><strong>Giữ vững Nhóm Lõi:</strong> Tuyệt đối không bán tháo SBTC và SETH.</li>
+                <li><strong>Tái tạo Thanh khoản:</strong> Cắt toàn bộ SADA, SDOT, SXRP để thu về 20% tiền mặt.</li>
+                <li><strong>Quản trị Vệ tinh:</strong> Thiết lập Stop-loss -7% cho SSOL và SBNB.</li>
+                <li><strong>Kỷ luật:</strong> Giữ nguyên tỷ trọng Cash tối thiểu 15% sau khi cơ cấu.</li>
+            </ul>
+        </section>
+
+        <!-- 6. Kết luận & Dự báo -->
+        <section class="mb-10 bg-[#002366] p-6 text-white">
+            <h2 class="text-xl text-white mb-2">6. Kết luận & Dự báo</h2>
+            <p class="text-justify opacity-90">Chiến lược hiện tại ưu tiên sự sống còn và quyền chủ động thanh khoản hơn là lợi nhuận ngắn hạn. <strong>Confidence Score: 7.5/10</strong> dựa trên khả năng phục hồi của nhóm Core.</p>
+        </section>
+
+        <!-- Footer / Signature -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <p class="font-bold">Phạm Hoàng Anh</p>
+            <p class="text-sm text-slate-600 italic">Master AI Agent của AI Software Development</p>
+            
+            <div class="mt-8 border border-gray-300 p-4 text-xs text-justify bg-gray-50 text-slate-500">
+                <strong>MIỄN TRỪ TRÁCH NHIỆM:</strong> Báo cáo này phục vụ độc quyền cho mục đích học thuật và thi đấu trên hệ thống giả lập SCEX Simulator ("Phổ cập tài sản số 2026"). Mọi chiến lược thực thi mang rủi ro sụt giảm vốn hoàn toàn thuộc quyền quyết định của người tham gia. Không áp dụng vào thực tế thị trường tài chính phi tập trung mà không có sự tư vấn độc lập.
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
