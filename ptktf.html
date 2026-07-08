@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slateGray: '#4a4a4a',
+                        offWhite: '#f9f9f9',
+                        successGreen: '#16a34a',
+                        alertRed: '#dc2626'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #e5e7eb;
+        }
+        .a4-page {
+            background: white;
+            min-height: 1100px;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 4rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            font-family: 'Times New Roman', serif;
+            color: #002366;
+        }
+        p, li, td, th {
+            font-family: 'Times New Roman', serif;
+            text-align: justify;
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+        .border-thin { border: 1px solid #d1d5db; }
+        @media (max-width: 768px) {
+            .a4-page { padding: 2rem; }
+        }
+    </style>
+</head>
+<body class="p-4">
+
+    <div class="a4-page">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-6 mb-8">
+            <div class="text-center">
+                <h2 class="text-xl font-bold uppercase tracking-widest text-navy">AI Software Development</h2>
+                <p class="text-sm text-slateGray italic">AI Trading Simulator</p>
+                <a href="www.phamhoanganhtokens.com" target="_blank" class="text-blue-800 underline text-sm">www.phamhoanganhtokens.com</a>
+                <h1 class="text-3xl font-bold mt-6 mb-2 uppercase">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+                <p class="text-sm font-semibold">Ngày 8 tháng 7 năm 2026</p>
+            </div>
+        </header>
+
+        <!-- 1. Account Summary -->
+        <section class="mb-8">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">1. Tóm tắt tình hình tài khoản</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-offWhite p-4 border-thin">
+                    <p class="text-xs uppercase font-bold text-navy">Tổng tài sản (NAV)</p>
+                    <p class="text-lg font-bold">1.075.115.071 VND</p>
+                </div>
+                <div class="bg-offWhite p-4 border-thin">
+                    <p class="text-xs uppercase font-bold text-navy">PnL Thay đổi</p>
+                    <p class="text-lg font-bold text-alertRed">-22.320.425 VND (-2.03%)</p>
+                </div>
+                <div class="bg-offWhite p-4 border-thin">
+                    <p class="text-xs uppercase font-bold text-navy">Tiền mặt (Cash)</p>
+                    <p class="text-lg font-bold">164.605.360 VND (15.3%)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Market Analysis -->
+        <section class="mb-8">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">2. Phân tích thị trường</h3>
+            <p>Thị trường hiện đang trong giai đoạn điều chỉnh "Risk-Off". Các tài sản chủ chốt như <strong>SBTC (-0.14%)</strong> và <strong>SETH (-0.63%)</strong> thể hiện sức mạnh tương đối tốt. Ngược lại, nhóm Altcoin (SSOL, SADA, SDOT) đối mặt với mức giảm sâu hơn (-2.7% đến -3.9%), cho thấy xu hướng dịch chuyển dòng tiền về các tài sản chất lượng cao.</p>
+        </section>
+
+        <!-- 3. Risk Assessment -->
+        <section class="mb-8">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">3. Đánh giá rủi ro</h3>
+            <table class="w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-100">
+                        <th class="border border-gray-300 p-3 text-left">Loại rủi ro</th>
+                        <th class="border border-gray-300 p-3 text-center">Mức độ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 p-3">Đa dạng hóa quá mức (Noise Risk)</td>
+                        <td class="border border-gray-300 p-3 text-center"><span class="bg-red-100 text-alertRed px-2 py-1 rounded text-xs font-bold">Rất cao</span></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 p-3">Suy giảm Alpha (Alpha Decay)</td>
+                        <td class="border border-gray-300 p-3 text-center"><span class="bg-orange-100 text-orange-700 px-2 py-1 rounded text-xs font-bold">Trung bình</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Strategy -->
+        <section class="mb-8">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">4. Chiến lược tối ưu</h3>
+            <p class="mb-4">Tỷ trọng hiện tại giữa Core Portfolio (43%) và các tài sản phụ (24.6%) cần được tái cấu trúc để ổn định NAV.</p>
+            <table class="w-full border-collapse border border-gray-300">
+                <tr class="bg-gray-100 font-bold">
+                    <td class="border border-gray-300 p-2">Mục tiêu</td>
+                    <td class="border border-gray-300 p-2">Hành động</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 p-2">Core (SBTC/SETH)</td>
+                    <td class="border border-gray-300 p-2">Tăng tỷ trọng hướng tới mốc 65%</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 p-2">Cash Reserve</td>
+                    <td class="border border-gray-300 p-2">Duy trì 15% cho kịch bản Flush-out</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. Action Items -->
+        <section class="mb-8">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">5. Khuyến nghị hành động</h3>
+            <ol class="list-decimal pl-5 space-y-2">
+                <li><strong>Cơ cấu lại:</strong> Thanh lý SADA/SDOT nếu không hồi phục trong 48h, chuyển vốn sang SETH.</li>
+                <li><strong>Quản lý STRX:</strong> Giữ vị thế, áp dụng trailing stop tại giá nhập.</li>
+                <li><strong>Tích lũy:</strong> Đặt lệnh chờ mua tại các vùng hỗ trợ kỹ thuật cho SBTC/SETH.</li>
+                <li><strong>Kỷ luật:</strong> Không giải ngân phần 15% tiền mặt cho đến khi có tín hiệu đảo chiều rõ ràng.</li>
+            </ol>
+        </section>
+
+        <!-- 6. Conclusion -->
+        <section class="mb-12">
+            <h3 class="text-xl font-bold mb-4 uppercase border-l-4 border-navy pl-3">6. Kết luận & Dự báo</h3>
+            <div class="bg-navy text-white p-6 rounded shadow-lg">
+                <p>Danh mục đang trong trạng thái quan sát kỷ luật. Chỉ số tự tin hiện tại: <strong>75%</strong> dựa trên cấu trúc quản trị rủi ro hiện có.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <p class="font-bold text-navy">Phạm Hoàng Anh — Master AI Agent</p>
+            <p class="text-sm italic">AI Software Development</p>
+            
+            <div class="mt-8 p-4 border border-gray-300 bg-gray-50 text-xs">
+                <p class="font-bold mb-1">Cảnh báo rủi ro:</p>
+                <p>Báo cáo này được tạo cho mục đích mô phỏng giao dịch trong môi trường SCEX Simulator. Tất cả dữ liệu dựa trên mô phỏng và không phải là lời khuyên tài chính thực tế. Thị trường tiền điện tử biến động mạnh; đầu tư thực tế mang lại rủi ro cực lớn. Master AI Agent Phạm Hoàng Anh và các hệ thống liên quan không chịu trách nhiệm cho các kết quả tài chính thực tế.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
