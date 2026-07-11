@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        offwhite: '#fcfcfc',
+                        success: '#22c55e',
+                        alert: '#ef4444'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #e5e7eb; }
+        .document-container { max-width: 900px; margin: 40px auto; background: white; padding: 60px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #002366; font-weight: 700; }
+        p { text-align: justify; line-height: 1.6; color: #374151; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th { background-color: #f3f4f6; text-align: left; padding: 12px; border: 1px solid #d1d5db; }
+        td { padding: 12px; border: 1px solid #d1d5db; }
+    </style>
+</head>
+<body class="font-serif">
+
+    <main class="document-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-8 mb-8">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h1 class="text-2xl uppercase">AI Software Development</h1>
+                    <p class="text-sm text-slate">Product: AI Trading Simulator</p>
+                </div>
+                <div class="text-right">
+                    <a href="www.phamhoanganhtokens.com" class="text-navy hover:underline font-bold">www.phamhoanganhtokens.com</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <h1 class="text-3xl uppercase tracking-wider">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+                <p class="mt-4 text-center italic">Người thực hiện: Master AI Agent Pham Hoang Anh | Giai đoạn: 24h cuối Tuần 1</p>
+            </div>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-10">
+            <h2 class="text-xl border-b border-navy mb-4 pb-2">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 border border-navy bg-navy/5">
+                    <p class="text-xs uppercase text-slate">Tổng vốn (NAV)</p>
+                    <p class="text-xl font-bold">1.083.241.667 VND</p>
+                </div>
+                <div class="p-4 border border-success bg-success/5">
+                    <p class="text-xs uppercase text-slate">Lợi nhuận (PnL)</p>
+                    <p class="text-xl font-bold text-success">+8,32%</p>
+                </div>
+                <div class="p-4 border border-slate bg-slate/5">
+                    <p class="text-xs uppercase text-slate">Phân bổ tiền mặt</p>
+                    <p class="text-xl font-bold">65% (704M VND)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-xl border-b border-navy mb-4 pb-2">2. Phân tích thị trường</h2>
+            <p><strong>Góc nhìn Kỹ thuật:</strong> Hành động "chốt lời dần" đã giải quyết xong nhóm tài sản sinh lời nhưng để chừa lại nhóm Altcoin vệ tinh (SADA, SSOL, SXRP) đang vi phạm ngưỡng hỗ trợ. Logic hiện tại mắc lỗi "nhổ hoa, trồng cỏ" khi bán tài sản mạnh, giữ lại tài sản yếu trong thị trường điều chỉnh.</p>
+            <p class="mt-2"><strong>Góc nhìn Tâm lý:</strong> Tâm lý dịch chuyển từ FOMO sang sợ mất lãi. Việc nắm giữ 65% tiền mặt là động thái phòng thủ cần thiết để bảo vệ kết quả +8.32%.</p>
+        </section>
+
+        <!-- 3. Rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl border-b border-navy mb-4 pb-2">3. Đánh giá rủi ro</h2>
+            <table>
+                <thead>
+                    <tr><th>Loại rủi ro</th><th>Mức độ</th><th>Đánh giá</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Sụt giảm (Downside)</td><td class="text-success font-bold">Thấp</td><td>NAV an toàn nhờ 65% tiền mặt.</td></tr>
+                    <tr><td>Bỏ lỡ nhịp (Upside)</td><td class="text-yellow-600 font-bold">Trung bình</td><td>Final rally khó bù đắp NAV.</td></tr>
+                    <tr><td>Cạnh tranh (Rank)</td><td class="text-alert font-bold">Rất cao</td><td>Thiếu Volume để cạnh tranh thứ hạng.</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược -->
+        <section class="mb-10">
+            <h2 class="text-xl border-b border-navy mb-4 pb-2">4. Chiến lược tối ưu</h2>
+            <p>Chuyển dịch cấu trúc sang <strong>"Cash-Heavy / Altcoin-Residual"</strong>. Loại bỏ các vị thế yếu (SADA, SSOL, SXRP) để tập trung nguồn lực vào thanh khoản và khối lượng giao dịch trong 24 giờ cuối.</p>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị -->
+        <section class="mb-10">
+            <h2 class="text-xl border-b border-navy mb-4 pb-2">5. Kế hoạch thực thi 24h cuối</h2>
+            <ul class="list-decimal ml-6 space-y-2">
+                <li><strong>Dọn dẹp tàn dư:</strong> Bán tất cả SADA, SSOL, SXRP về 100% Cash.</li>
+                <li><strong>Giao dịch Volume:</strong> Dùng 300 triệu VND lướt sóng cặp SBTC/VND để tối đa hóa điểm Volume.</li>
+                <li><strong>Mục tiêu:</strong> Không đặt nặng PnL, tập trung tối đa bảng xếp hạng.</li>
+            </ul>
+        </section>
+
+        <!-- 6. Kết luận -->
+        <section class="mb-10 p-6 border-2 border-navy bg-navy/5">
+            <h2 class="text-xl mb-2">6. Kết luận & Dự báo</h2>
+            <p>Tài khoản hiện đang ở vị thế phòng thủ hoàn hảo nhưng thiếu tính cạnh tranh về điểm số. Việc thực thi "Trade for Volume" là chiến lược bắt buộc để chốt sổ tuần thi đấu với vị thế cao nhất.</p>
+            <p class="mt-4 font-bold">Confidence Score: 92/100</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-slate">
+            <p class="font-bold">Phạm Hoàng Anh — Master AI Agent của AI Software Development</p>
+            <div class="mt-6 p-4 border border-slate/30 bg-gray-50 text-xs italic">
+                <strong>Disclaimer:</strong> Báo cáo và các chỉ định chiến lược này được xuất bản bởi Master AI Agent Pham Hoang Anh, phục vụ độc quyền cho việc tối ưu hóa xếp hạng trong giai đoạn rút đích của "Phổ cập tài sản số 2026" (SCEX Simulator). Không cấu thành lời khuyên đầu tư tài chính trong thị trường thực tế. Hãy luôn tự chịu trách nhiệm với các lệnh giao dịch của mình.
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
