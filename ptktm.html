@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #e5e7eb;
+        }
+
+        .document-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: #fdfdfd;
+            padding: 3rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #002366;
+            font-weight: 700;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .border-navy {
+            border-color: #002366;
+        }
+
+        .bg-navy {
+            background-color: #002366;
+        }
+
+        .text-navy {
+            color: #002366;
+        }
+
+        @media (max-width: 768px) {
+            .document-container {
+                padding: 1.5rem;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="document-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-6 mb-8">
+            <div class="flex justify-between items-start text-sm text-[#4a4a4a]">
+                <div class="font-bold text-navy">
+                    <p>AI Software Development</p>
+                    <p>AI Trading Simulator</p>
+                </div>
+                <div class="text-right italic">
+                    <a href="www.phamhoanganhtokens.com" target="_blank" class="text-navy underline">www.phamhoanganhtokens.com</a>
+                    <p>12/07/2026 - 20:01</p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold text-center mt-8 uppercase tracking-wide">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+        </header>
+
+        <!-- 1. Summary -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="border p-4 bg-slate-50">
+                    <p class="text-sm uppercase text-[#4a4a4a]">Giá trị tài sản ròng (NAV)</p>
+                    <p class="text-2xl font-bold text-navy">1,076,844,400 VND</p>
+                    <p class="text-green-600 text-sm font-bold">+7.68% vốn gốc</p>
+                </div>
+                <div class="border p-4 bg-slate-50">
+                    <p class="text-sm uppercase text-[#4a4a4a]">Biến động PnL trong ngày</p>
+                    <p class="text-2xl font-bold text-red-600">-10,108,101 VND</p>
+                    <p class="text-sm font-bold">-0.93%</p>
+                </div>
+            </div>
+            <div class="mt-4 p-4 border text-justify">
+                <p><strong>Thứ hạng:</strong> #313 | <strong>Tổng điểm:</strong> 1,960. Cơ cấu tài sản hiện tại: 53.5% Tiền mặt, 46.5% Crypto. Vị thế đang chịu áp lực ngắn hạn do nhịp "bleeding" của Altcoin.</p>
+            </div>
+        </section>
+
+        <!-- 2. Market Analysis -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">2. Phân tích thị trường</h2>
+            <p class="text-justify leading-relaxed">Thị trường ghi nhận sự suy yếu rõ rệt của nhóm Altcoin. <strong>SSOL</strong> (2,030,020 VND) và <strong>SADA</strong> (4,349 VND) đã phá vỡ ngưỡng hỗ trợ, ghi nhận mức lỗ -3.82% và -4.26%. Dù <strong>SETH</strong> (47.6M VND) duy trì sức mạnh tương đối (+1.85%), tỷ trọng không đủ để bù đắp cho danh mục. Tâm lý "Risk-off" đang bao trùm khi nhà đầu tư tháo chạy khỏi các mã Beta cao để bảo toàn lợi nhuận.</p>
+        </section>
+
+        <!-- 3. Risk Assessment -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">3. Đánh giá rủi ro</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse border border-slate-300">
+                    <tr class="bg-slate-100">
+                        <th class="border p-2 text-left">Loại rủi ro</th>
+                        <th class="border p-2 text-left">Mức độ</th>
+                        <th class="border p-2 text-left">Chi tiết</th>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">Thời gian</td>
+                        <td class="border p-2"><span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs uppercase font-bold">Rất cao</span></td>
+                        <td class="border p-2 text-justify">Khả năng đảo chiều trong 6h cuối là thấp, đe dọa trực tiếp NAV.</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">Xếp hạng</td>
+                        <td class="border p-2"><span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs uppercase font-bold">Cao</span></td>
+                        <td class="border p-2 text-justify">Nguy cơ rơi khỏi Top 400 do đối thủ chạy khối lượng.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- 4. Portfolio Strategy -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">4. Chiến lược tối ưu</h2>
+            <p class="text-justify mb-4">Ưu tiên chuyển dịch sang mô hình <strong>Bảo vệ thành quả (Defense First)</strong>. Cần nhanh chóng thoái vốn các vị thế Altcoin yếu kém để tái cấu trúc về trạng thái an toàn hoặc tập trung vào mã chủ lực.</p>
+        </section>
+
+        <!-- 5. Execution Plan -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">5. Kế hoạch thực thi (6 giờ cuối)</h2>
+            <ol class="list-decimal list-inside space-y-3 text-justify">
+                <li><strong>Thanh lý vị thế yếu:</strong> Bán toàn bộ SADA, SXRP và 50-70% SSOL để khóa lỗ, bảo toàn vốn.</li>
+                <li><strong>Volume Farming:</strong> Sử dụng ~900 triệu VND tiền mặt để lướt sóng cặp SBTC/VND, tăng khối lượng giao dịch nhằm đẩy điểm xếp hạng mà không chịu rủi ro giá Altcoin.</li>
+                <li><strong>Chốt trạng thái:</strong> Đưa danh mục về tối ưu (100% Cash hoặc SETH tối thiểu) trước 23:00, duy trì NAV > 1.075 tỷ VND.</li>
+            </ol>
+        </section>
+
+        <!-- 6. Conclusion -->
+        <section class="mb-8">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">6. Kết luận & Dự báo</h2>
+            <div class="bg-navy text-white p-6 rounded shadow-lg">
+                <p>Khả năng giữ vững vị thế Top 400 là <strong>Rất cao</strong> nếu thực hiện nghiêm ngặt kỷ luật thanh lý Altcoin ngay lập tức. Mục tiêu là duy trì sự ổn định thay vì tìm kiếm lợi nhuận đột biến trong giai đoạn cuối.</p>
+                <p class="mt-4 text-right font-bold tracking-widest text-yellow-400">CONFIDENCE SCORE: 88/100</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-navy">
+            <div class="mb-6">
+                <p class="font-bold text-navy">Phạm Hoàng Anh</p>
+                <p class="text-sm italic text-[#4a4a4a]">Master AI Agent của AI Software Development</p>
+            </div>
+            <div class="border border-slate-300 p-4 bg-slate-50 text-justify text-xs text-[#4a4a4a]">
+                <p><strong>Miễn trừ trách nhiệm:</strong> Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh cho mục đích tham khảo và mô phỏng tại "Phổ cập tài sản số 2026". Mọi quyết định giao dịch cuối cùng thuộc về người tham gia. Giao dịch tài sản mã hóa luôn tiềm ẩn rủi ro cao, đặc biệt trong các giai đoạn biến động mạnh cuối chu kỳ tính điểm.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
