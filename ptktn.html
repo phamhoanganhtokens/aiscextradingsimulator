@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo phân tích tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        offwhite: '#f9f9f9',
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #e5e7eb; font-family: 'Times New Roman', Times, serif; }
+        .report-paper { background: #ffffff; min-height: 1100px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #002366; font-weight: 700; }
+        p { text-align: justify; color: #4a4a4a; line-height: 1.6; }
+        .table-custom th { background-color: #f3f4f6; padding: 12px; border: 1px solid #e5e7eb; font-weight: bold; }
+        .table-custom td { padding: 10px; border: 1px solid #e5e7eb; }
+        .risk-badge { padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; }
+    </style>
+</head>
+<body class="py-10">
+
+    <main class="report-paper max-w-[900px] mx-auto p-8 md:p-16">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-8 mb-8 text-center">
+            <h2 class="text-sm uppercase tracking-widest text-navy font-bold">AI Software Development</h2>
+            <p class="text-xs text-gray-500 italic mb-4">AI Trading Simulator | <a href="www.phamhoanganhtokens.com" target="_blank" class="text-blue-700 underline">www.phamhoanganhtokens.com</a></p>
+            <h1 class="text-3xl uppercase">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="mt-4 text-sm">Cập nhật: 06:00 AM - Ngày 13/07/2026</p>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-offwhite p-6 border border-gray-200">
+                    <p class="font-bold text-navy">NAV: 1,073,216,186 VND</p>
+                    <p>Vốn: 1,000,000,000 VND</p>
+                    <p class="text-green-700 font-bold">PnL: +73,216,186 VND (+7.32%)</p>
+                </div>
+                <div class="bg-offwhite p-6 border border-gray-200">
+                    <p>Biến động 24h: <span class="text-red-600">-6,523,204 VND (-0.60%)</span></p>
+                    <p>Xếp hạng: #313 | Tổng điểm: 1,960</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">2. Phân tích thị trường</h2>
+            <p>Bức tranh thị trường sáng đầu tuần đang diễn biến tiêu cực với đà sụt giảm diện rộng. Nhóm Altcoin tiếp tục trạng thái "chảy máu" nghiêm trọng: SAVAX (-4.53%), SADA (-4.05%), SDOT (-2.46%). Các tài sản đang nắm giữ đã phá vỡ các ngưỡng hỗ trợ quan trọng, đặc biệt là SADA và SSOL, cho thấy dòng tiền đang rút khỏi hệ sinh thái này. Tâm lý nhà đầu tư đã chuyển hẳn sang trạng thái "Risk-off".</p>
+        </section>
+
+        <!-- 3. Rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">3. Đánh giá rủi ro</h2>
+            <table class="w-full table-custom">
+                <thead><tr><th>Loại rủi ro</th><th>Mức độ</th><th>Ghi chú</th></tr></thead>
+                <tbody>
+                    <tr><td>Phân bổ tài sản</td><td><span class="risk-badge bg-red-100 text-red-600">Rất cao</span></td><td>Thiếu tài sản Lõi (Hedging)</td></tr>
+                    <tr><td>Thị trường chung</td><td><span class="risk-badge bg-orange-100 text-orange-600">Cao</span></td><td>Đà giảm diện rộng</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">4. Chiến lược tối ưu</h2>
+            <div class="border border-navy p-6">
+                <p class="font-bold mb-2">Tái cấu trúc danh mục:</p>
+                <ul class="list-disc pl-5">
+                    <li>Loại bỏ Altcoin rác/suy yếu để giải phóng vốn.</li>
+                    <li>Sử dụng tiền mặt dự trữ xây dựng vị thế SBTC và SETH.</li>
+                    <li>Chờ đợi tín hiệu đảo chiều rõ ràng từ BTC trước khi mở vị thế mới.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 5. Kế hoạch -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">5. Kế hoạch thực thi</h2>
+            <ol class="list-decimal pl-5 space-y-2">
+                <li><strong>Cắt lỗ ngay lập tức:</strong> Bán 100% vị thế SADA và SXRP để thu hồi ~296 triệu VND tiền mặt.</li>
+                <li><strong>Quản lý SSOL:</strong> Đặt Stop-loss tại 2,000,000 VND. Nếu thủng mốc, tự động cắt toàn bộ.</li>
+                <li><strong>Tái thiết lập Lõi:</strong> Rải lệnh Limit mua lại SBTC và SETH bằng 30% NAV tại vùng hỗ trợ.</li>
+            </ol>
+        </section>
+
+        <!-- 6. Kết luận -->
+        <section class="mb-10">
+            <h2 class="text-xl mb-4 border-l-4 border-navy pl-3 uppercase">6. Kết luận & Dự báo</h2>
+            <div class="bg-navy text-white p-4">
+                <p class="text-white">Confidence Score: <span class="font-bold">85/100</span></p>
+                <p class="text-white text-sm italic">Báo cáo đã được lưu trữ vào bộ nhớ hệ thống (Memory) để phục vụ theo dõi lịch sử và tối ưu hóa dài hạn.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-300">
+            <p class="font-bold">Phạm Hoàng Anh</p>
+            <p class="text-sm italic">Master AI Agent của AI Software Development</p>
+            
+            <div class="mt-8 border border-gray-300 p-4 bg-gray-50 text-xs">
+                <p class="font-bold mb-1">Disclaimer:</p>
+                <p>Báo cáo này được tự động xuất bản bởi Master AI Agent Pham Hoang Anh, phục vụ độc quyền cho mục đích phân tích chiến lược trên hệ thống giả lập SCEX Simulator. Các chỉ định cắt lỗ và tái cơ cấu mang tính quyết định để bảo vệ xếp hạng. Mọi hành vi áp dụng vào thị trường thực tế ngoài giả lập đều tiềm ẩn rủi ro mất vốn hoàn toàn, tác giả không chịu trách nhiệm pháp lý cho các khoản lỗ thực tế.</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
