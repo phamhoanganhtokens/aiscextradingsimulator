@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo phân tích tài chính - AI Trading Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #ffffff;
+            padding: 3rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #002366;
+            font-weight: 700;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .navy-header { color: #002366; }
+        .slate-text { color: #4a4a4a; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid #e2e8f0;
+            padding: 0.75rem;
+        }
+
+        .risk-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: bold;
+        }
+
+        .bg-red-alert { background-color: #fee2e2; color: #b91c1c; }
+    </style>
+</head>
+<body class="p-4">
+
+    <div class="report-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy-900 pb-6 mb-8 text-center">
+            <h2 class="text-xl font-bold navy-header uppercase">AI Software Development</h2>
+            <p class="text-sm slate-text">Sản phẩm: AI Trading Simulator | <a href="www.phamhoanganhtokens.com" class="text-blue-800 underline">www.phamhoanganhtokens.com</a></p>
+            <h1 class="text-3xl mt-4 navy-header uppercase italic">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="mt-2 text-gray-600 font-bold">Ngày 14/07/2026</p>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-[#002366] pl-3">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-gray-50 p-4 border border-gray-200">
+                    <p class="text-xs uppercase text-gray-500">Tổng tài sản (NAV)</p>
+                    <p class="text-xl font-bold">1,058,534,034 VND</p>
+                </div>
+                <div class="bg-gray-50 p-4 border border-gray-200">
+                    <p class="text-xs uppercase text-gray-500">PnL trong ngày</p>
+                    <p class="text-xl font-bold text-red-600">-2,104,734 (-0.20%)</p>
+                </div>
+                <div class="bg-gray-50 p-4 border border-gray-200">
+                    <p class="text-xs uppercase text-gray-500">Tiền mặt</p>
+                    <p class="text-xl font-bold">159 VND</p>
+                </div>
+            </div>
+            <table class="mt-6">
+                <thead><tr><th>Tài sản</th><th>Giá trị (VND)</th><th>Tỷ trọng</th><th>PnL</th></tr></thead>
+                <tbody>
+                    <tr><td>SBTC</td><td>337,037,839</td><td>31.8%</td><td class="text-red-600">-0.38%</td></tr>
+                    <tr><td>SETH</td><td>224,941,627</td><td>21.2%</td><td class="text-red-600">-0.04%</td></tr>
+                    <tr><td>SADA</td><td>199,105,812</td><td>18.8%</td><td class="text-red-600">-8.37%</td></tr>
+                    <tr><td>SSOL</td><td>198,190,052</td><td>18.7%</td><td class="text-red-600">-5.98%</td></tr>
+                    <tr><td>SXRP</td><td>99,258,543</td><td>9.4%</td><td class="text-red-600">-4.38%</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-[#002366] pl-3">2. Phân tích thị trường</h2>
+            <p><strong>Góc nhìn Kỹ thuật:</strong> Danh mục đang ở trạng thái "Drawdown" nhẹ. Hai tài sản dẫn dắt là SBTC và SETH đang giữ giá rất tốt quanh vùng giá vốn. Tuy nhiên, nhóm Altcoins (SADA, SSOL, SXRP) đang chịu áp lực điều chỉnh mạnh hơn, đặc biệt là SADA. Điều này cho thấy thị trường đang trong nhịp rung lắc kỹ thuật sau giai đoạn tích lũy.</p>
+            <p><strong>Góc nhìn Tâm lý:</strong> Bối cảnh "đã gom xong" phản ánh tâm lý kỳ vọng cực kỳ lạc quan. Việc giải ngân 100% vốn cho thấy niềm tin tuyệt đối vào chu kỳ tăng trưởng sắp tới, tuy nhiên mức PnL âm hiện tại có thể gây áp lực nếu thị trường Sideway-down kéo dài.</p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-[#002366] pl-3">3. Đánh giá rủi ro</h2>
+            <ul class="list-disc pl-5">
+                <li class="mb-2"><strong>Rủi ro thanh khoản:</strong> <span class="risk-badge bg-red-alert">Rất cao</span>. Không còn khả năng DCA.</li>
+                <li class="mb-2"><strong>Rủi ro tập trung:</strong> Tập trung hoàn toàn vào Crypto. Độ tương quan rất cao, rủi ro sụt giảm đồng loạt.</li>
+                <li><strong>Mức độ sụt giảm:</strong> Cần đặc biệt theo dõi SADA và SSOL khi mức lỗ đã vượt ngưỡng an toàn (>5%).</li>
+            </ul>
+        </section>
+
+        <!-- 4. Chiến lược -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-[#002366] pl-3">4. Chiến lược tối ưu</h2>
+            <table class="text-sm">
+                <tr><th class="w-1/3">Phần</th><th>Tài sản</th><th>Vai trò</th></tr>
+                <tr><td>Core (53%)</td><td>SBTC, SETH</td><td>Giữ nhịp, giảm rủi ro hệ thống</td></tr>
+                <tr><td>Satellite (47%)</td><td>SADA, SSOL, SXRP</td><td>Tối ưu hóa lợi nhuận Altcoin</td></tr>
+            </table>
+        </section>
+
+        <!-- 5. Kế hoạch -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 border-l-4 border-[#002366] pl-3">5. Kế hoạch thực thi</h2>
+            <ol class="list-decimal pl-5">
+                <li class="mb-2"><strong>Quan sát:</strong> Giữ vị thế, không dùng đòn bẩy để tránh quét thanh khoản.</li>
+                <li class="mb-2"><strong>Tái cấu trúc:</strong> Chốt lời 5-10% nếu SBTC/SETH đạt >10% lợi nhuận để dự phòng.</li>
+                <li><strong>Cắt lỗ:</strong> Thiết lập ngưỡng cứng -15% cho SADA.</li>
+            </ol>
+        </section>
+
+        <!-- 6. Kết luận -->
+        <section class="mb-10 bg-slate-100 p-6 rounded border border-slate-200">
+            <h2 class="text-xl font-bold">6. Kết luận & Dự báo</h2>
+            <p class="mt-2">Danh mục mang tính tấn công cao, đặt cược lớn vào nhóm Layer 1. Cần kiên nhẫn chờ đợi BTC Dominance suy yếu để đón sóng Altcoin.</p>
+            <p class="font-bold">Confidence Score: 7.5/10</p>
+        </section>
+
+        <!-- Footer/Disclaimer -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <p class="font-bold italic">Phạm Hoàng Anh — Master AI Agent của AI Software Development</p>
+            <div class="mt-6 border border-gray-300 p-4 bg-gray-50">
+                <h3 class="text-sm font-bold uppercase mb-2">Miễn trừ trách nhiệm</h3>
+                <p class="text-xs text-justify">Báo cáo này chỉ mang tính chất tham khảo dựa trên dữ liệu mô phỏng và phân tích từ hệ thống AI. Đầu tư tài chính luôn tiềm ẩn rủi ro mất vốn. Nhà đầu tư cần tự chịu trách nhiệm về các quyết định giao dịch của mình. Kết quả trong quá khứ hoặc trong môi trường mô phỏng không đảm bảo cho lợi nhuận trong tương lai.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
