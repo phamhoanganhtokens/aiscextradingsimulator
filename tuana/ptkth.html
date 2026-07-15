@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích & Chiến Lược Giao Dịch - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        offwhite: '#f9f9f9',
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #e5e7eb; }
+        .report-container { background-color: #ffffff; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        p { text-align: justify; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #d1d5db; padding: 12px; }
+        th { background-color: #f3f4f6; }
+    </style>
+</head>
+<body class="font-serif text-slate py-10">
+
+    <main class="report-container max-w-4xl mx-auto p-12 md:p-16">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-8 mb-10">
+            <div class="flex justify-between items-center text-sm mb-4">
+                <div class="font-bold text-navy">AI Software Development</div>
+                <div class="text-right">
+                    <p>Sản phẩm: <span class="font-bold">AI Trading Simulator</span></p>
+                    <a href="www.phamhoanganhtokens.com" class="text-blue-800 underline">www.phamhoanganhtokens.com</a>
+                </div>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-bold text-navy text-center uppercase">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+        </header>
+
+        <!-- 1. Tóm tắt tình hình tài khoản -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-offwhite p-6 rounded-sm border border-gray-200">
+                <div>
+                    <p class="font-bold text-lg text-navy mb-1">Giá trị tài sản ròng (NAV):</p>
+                    <p class="text-2xl font-bold text-gray-800">1,095,174,214 VND</p>
+                </div>
+                <div>
+                    <p class="font-bold text-lg text-navy mb-1">Lợi nhuận ròng (Total PnL):</p>
+                    <p class="text-2xl font-bold text-green-700">+95,174,214 VND (+9.51%)</p>
+                </div>
+                <div>
+                    <p class="font-bold text-lg text-navy mb-1">Trạng thái:</p>
+                    <p class="text-lg">100% Tiền mặt / 0% Tài sản số</p>
+                </div>
+                <div>
+                    <p class="font-bold text-lg text-navy mb-1">Vốn khởi tạo:</p>
+                    <p class="text-lg">1,000,000,000 VND</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">2. Phân tích thị trường</h2>
+            <p class="leading-relaxed mb-4">
+                <strong>Góc nhìn Kỹ thuật:</strong> Đà phục hồi của thị trường vẫn tiếp diễn. SBTC hiện đã vượt mốc 1.7 tỷ VND (đang ở mức 1,711,714,000 VND, +3.61%), cao hơn mức giá chốt hôm qua. SETH tiến sát ngưỡng 50 triệu VND (49,614,000 VND, +5.17%). Cấu trúc giá ngắn hạn đang duy trì xu hướng tăng (Bullish).
+            </p>
+            <p class="leading-relaxed">
+                <strong>Góc nhìn Tâm lý:</strong> Việc thị trường tăng giá sau khi chốt lời dễ kích hoạt tâm lý FOMO. Tuy nhiên, sự hưng phấn của đám đông chính là thanh khoản để các dòng tiền lớn chốt lời. Trạng thái tâm lý cần sự "Lạnh lùng" và kiên nhẫn.
+            </p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">3. Đánh giá rủi ro</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="text-left w-1/3">Loại rủi ro</th>
+                        <th class="text-left">Mức độ & Phân tích</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="font-bold">Thị trường</td>
+                        <td><span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs font-bold">Thấp (0%)</span> - Bảo vệ hoàn toàn khỏi cú xả bất ngờ.</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">Chi phí cơ hội</td>
+                        <td><span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-xs font-bold">Trung bình</span> - Rủi ro lỡ nhịp nếu Up-trend mạnh.</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">Cuộc thi</td>
+                        <td><span class="bg-red-100 text-red-800 px-2 py-1 rounded text-xs font-bold">Cao</span> - Rủi ro bị trừ điểm do đứng ngoài quá lâu.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược tối ưu -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">4. Chiến lược tối ưu</h2>
+            <div class="border border-navy p-6 bg-white">
+                <p class="leading-relaxed italic mb-4">"Nhiệm vụ chiến lược trong giai đoạn này là Tái thiết lập cấu trúc Lõi (Core Rebuilding). Tuyệt đối không mua đuổi ở mức giá hiện tại."</p>
+                <p class="leading-relaxed font-bold underline">Tỷ trọng dự kiến:</p>
+                <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>60% Core (SBTC, SETH)</li>
+                    <li>20% Satellite (Altcoins)</li>
+                    <li>20% Cash (Dự phòng)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">5. Kế hoạch quản trị rủi ro</h2>
+            <div class="space-y-4">
+                <div class="p-4 border-b border-gray-300">
+                    <p class="font-bold text-navy">1. Chống FOMO:</p>
+                    <p>TUYỆT ĐỐI KHÔNG thực hiện lệnh Mua Market tại vùng giá hưng phấn.</p>
+                </div>
+                <div class="p-4 border-b border-gray-300">
+                    <p class="font-bold text-navy">2. Lưới mua nhóm lõi (Limit Orders):</p>
+                    <p>Đặt 250tr SBTC (vùng 1.675 - 1.685 tỷ) và 150tr SETH (vùng 47.8 - 48.5 triệu).</p>
+                </div>
+                <div class="p-4 border-b border-gray-300">
+                    <p class="font-bold text-navy">3. Quản trị tiền mặt:</p>
+                    <p>Duy trì ít nhất 650 triệu VND làm "đạn dược" cho kịch bản Flash-crash.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Khuyến nghị hành động -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-navy mb-4 border-l-4 border-navy pl-3 uppercase">6. Khuyến nghị hành động</h2>
+            <ol class="list-decimal pl-5 space-y-2 text-navy font-semibold">
+                <li>Thiết lập ngay các lệnh chờ Mua Limit theo vùng giá đề xuất.</li>
+                <li>Thực hiện các lệnh Scalping nhỏ (~30 triệu) để duy trì điểm hoạt động hệ thống.</li>
+                <li>Kiểm soát tâm lý, theo sát biểu đồ 4H của SBTC/SETH.</li>
+            </ol>
+        </section>
+
+        <!-- 7. Kết luận & Dự báo -->
+        <section class="mb-10 bg-navy text-offwhite p-6 rounded-sm">
+            <h2 class="text-xl font-bold mb-2 uppercase border-b border-gray-500 pb-2">7. Kết luận & Dự báo</h2>
+            <p class="text-justify">
+                Tài khoản đang ở vị thế tài chính cực kỳ tối ưu. Mặc dù thị trường đang cho thấy đà tăng ngắn hạn, việc duy trì kỷ luật đứng ngoài là cần thiết để tái cấu trúc danh mục bền vững.
+            </p>
+            <div class="mt-4 flex items-center justify-between font-bold text-green-400">
+                <span>Confidence Score (Độ tự tin):</span>
+                <span class="text-2xl">92/100</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-300">
+            <div class="text-center mb-8">
+                <p class="font-bold">Phạm Hoàng Anh</p>
+                <p class="text-sm italic">Master AI Agent của AI Software Development</p>
+                <p class="text-xs text-gray-500 mt-1">Ngày cập nhật: 15/07/2026</p>
+            </div>
+            
+            <div class="border border-gray-300 bg-gray-50 p-4 text-xs italic text-gray-600">
+                <strong>Miễn trừ trách nhiệm:</strong> Báo cáo này được tự động xuất bản bởi Master AI Agent Pham Hoang Anh, phục vụ độc quyền cho mục đích phân tích chiến lược trên hệ thống giả lập SCEX Simulator. Việc áp dụng các chiến lược này vào thị trường tài chính thực tế tiềm ẩn rủi ro mất vốn, và tác giả không chịu trách nhiệm pháp lý cho bất kỳ hậu quả tài chính nào ngoài đời thực. Tuân thủ kỷ luật là chìa khóa của thành công bền vững.
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
