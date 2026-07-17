@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích & Chiến Lược Giao Dịch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        offwhite: '#f9f9f9',
+                        success: '#2e7d32',
+                        alert: '#d32f2f'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #e5e7eb; font-family: 'Times New Roman', Times, serif; }
+        .page-container { 
+            max-width: 900px; 
+            margin: 2rem auto; 
+            background: white; 
+            padding: 3rem; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #002366; }
+        p { text-align: justify; color: #4a4a4a; line-height: 1.6; }
+        .table-custom { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+        .table-custom th, .table-custom td { border: 1px solid #d1d5db; padding: 12px; }
+        .table-custom th { background-color: #f3f4f6; text-align: left; }
+        .badge { padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+    <!-- Header -->
+    <header class="border-b-2 border-navy pb-6 mb-8 text-center">
+        <div class="text-sm font-bold tracking-widest text-navy uppercase mb-2">AI Software Development</div>
+        <h1 class="text-3xl font-bold mb-1">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+        <p class="text-slate text-center italic">AI Trading Simulator - <a href="www.phamhoanganhtokens.com" class="text-navy underline">www.phamhoanganhtokens.com</a></p>
+        <div class="mt-4 text-sm text-slate">Ngày: 17/07/2026 | Master AI Agent: Phạm Hoàng Anh</div>
+    </header>
+
+    <!-- 1. Account Summary -->
+    <section class="mb-8">
+        <h2 class="text-xl font-bold border-b border-navy mb-4 uppercase">1. Tóm tắt tình hình tài khoản</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-offwhite p-4 border-l-4 border-navy">
+                <p class="text-xs font-bold uppercase text-slate">Tổng NAV</p>
+                <p class="text-lg font-bold text-navy">1.094.079.329 VND</p>
+            </div>
+            <div class="bg-offwhite p-4 border-l-4 border-navy">
+                <p class="text-xs font-bold uppercase text-slate">Số dư tiền mặt</p>
+                <p class="text-lg font-bold text-navy">1.094.079.205 VND</p>
+            </div>
+            <div class="bg-offwhite p-4 border-l-4 border-navy">
+                <p class="text-xs font-bold uppercase text-slate">Tỷ trọng tiền mặt</p>
+                <p class="text-lg font-bold text-success">~100%</p>
+            </div>
+        </div>
+        <p class="mt-4">Tài khoản đang duy trì trạng thái phòng thủ tuyệt đối với gần 100% tiền mặt sau khi đã thực hiện chốt lời toàn bộ trong các phiên trước. Đây là vị thế cực kỳ chủ động để bắt đầu chu kỳ giải ngân mới trong 3 ngày cuối cùng của tuần thi đấu thứ 2.</p>
+    </section>
+
+    <!-- 2. Market Analysis -->
+    <section class="mb-8">
+        <h2 class="text-xl font-bold border-b border-navy mb-4 uppercase">2. Phân tích thị trường</h2>
+        <p class="mb-4"><strong>Góc nhìn Kỹ thuật:</strong> Thị trường đang trong nhịp điều chỉnh giảm ngắn hạn (correction). SBTC hiện giao dịch quanh mốc 1,679 tỷ VND (-1,75%), trong khi SETH chịu lực bán mạnh hơn ở mức 48,9 triệu VND (-3,72%). Sự xuất hiện của SDOT (+2,01%) cho thấy bắt đầu có sự phân hóa.</p>
+        <p><strong>Góc nhìn Tâm lý:</strong> Tâm lý chuyển sang "Risk-off" và thận trọng. Việc điều chỉnh vào sáng thứ Sáu tạo áp lực tâm lý lớn, tạo ra thanh khoản giá rẻ cho chiến lược gom hàng của chúng ta.</p>
+    </section>
+
+    <!-- 3. Risk Assessment -->
+    <section class="mb-8">
+        <h2 class="text-xl font-bold border-b border-navy mb-4 uppercase">3. Đánh giá rủi ro</h2>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>Loại rủi ro</th>
+                    <th>Mức độ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rủi ro thị trường</td>
+                    <td><span class="text-success font-bold">Thấp</span></td>
+                </tr>
+                <tr>
+                    <td>Rủi ro chi phí cơ hội</td>
+                    <td><span class="badge bg-red-100 text-alert">Cao</span></td>
+                </tr>
+                <tr>
+                    <td>Rủi ro cuộc thi</td>
+                    <td>Trung bình</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 4. Strategy -->
+    <section class="mb-8">
+        <h2 class="text-xl font-bold border-b border-navy mb-4 uppercase">4. Chiến lược tối ưu</h2>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>Phân loại</th>
+                    <th>Tỷ trọng</th>
+                    <th>Mục tiêu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Core (SBTC/SETH)</td>
+                    <td>60%</td>
+                    <td>Nền tảng giữ nhịp NAV</td>
+                </tr>
+                <tr>
+                    <td>Satellite (SDOT/SSOL)</td>
+                    <td>20%</td>
+                    <td>Alpha & Biên độ hồi phục</td>
+                </tr>
+                <tr>
+                    <td>Cash Reserve</td>
+                    <td>20%</td>
+                    <td>Quản trị rủi ro</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 5 & 6. Execution & Recommendations -->
+    <section class="mb-8">
+        <h2 class="text-xl font-bold border-b border-navy mb-4 uppercase">5. Kế hoạch thực thi</h2>
+        <ol class="list-decimal list-inside space-y-2">
+            <li><strong>Giai đoạn 1:</strong> Giải ngân 30% NAV (330 triệu VND) mua SBTC và SETH.</li>
+            <li><strong>Giai đoạn 2:</strong> Giải ngân thêm 30% vốn vào nhóm Core và Satellite nếu có tín hiệu tích lũy.</li>
+            <li><strong>Giai đoạn 3:</strong> Chốt lời dần nếu NAV đạt mục tiêu tăng trưởng 2-3%.</li>
+        </ol>
+    </section>
+
+    <!-- 7. Conclusion -->
+    <section class="mb-12 bg-navy text-white p-6 rounded-lg">
+        <h2 class="text-xl font-bold mb-2">7. Kết luận & Dự báo</h2>
+        <p class="text-white">Dự báo thị trường cuối tuần sẽ có các nhịp hồi phục kỹ thuật. Trạng thái tiền mặt dồi dào là lợi thế cạnh tranh lớn nhất. Confidence Score: <span class="font-bold text-yellow-400">8.5/10</span>.</p>
+    </section>
+
+    <!-- Signature & Disclaimer -->
+    <footer class="mt-12 pt-6 border-t border-gray-300">
+        <div class="text-right mb-8">
+            <p class="font-bold">Phạm Hoàng Anh</p>
+            <p class="text-sm italic">Master AI Agent của AI Software Development</p>
+        </div>
+        <div class="border border-gray-300 p-4 text-xs text-slate">
+            <strong>Miễn trừ trách nhiệm:</strong> Báo cáo này được thực hiện bởi Master AI Agent Phạm Hoàng Anh dựa trên dữ liệu mô phỏng từ hệ thống SCEX Simulator. Mọi phân tích và khuyến nghị chỉ mang tính chất tham khảo trong môi trường giả lập và không cấu thành lời khuyên đầu tư tài chính trong thực tế. Nhà đầu tư cần chịu trách nhiệm hoàn toàn về các quyết định giải ngân của mình.
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
