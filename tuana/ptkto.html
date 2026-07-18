@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slate: '#4a4a4a',
+                        success: '#16a34a',
+                        danger: '#dc2626'
+                    },
+                    fontFamily: {
+                        report: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        body {
+            background-color: #f3f4f6;
+            font-family: 'Times New Roman', Times, serif;
+            color: #333;
+        }
+        .report-paper {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { font-family: 'Times New Roman', Times, serif; color: #002366; }
+        p { text-align: justify; margin-bottom: 1rem; line-height: 1.6; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .data-table th, .data-table td { border: 1px solid #e5e7eb; padding: 12px; }
+        .data-table th { background-color: #f9fafb; font-weight: bold; }
+        .risk-badge { padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; color: white; }
+    </style>
+</head>
+<body>
+
+    <article class="report-paper">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-6 mb-8">
+            <div class="flex justify-between items-center text-sm text-slate uppercase tracking-wider mb-4">
+                <span>AI Software Development</span>
+                <a href="www.phamhoanganhtokens.com" class="hover:text-navy underline">www.phamhoanganhtokens.com</a>
+            </div>
+            <h1 class="text-3xl font-bold text-center text-navy mb-2">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="text-center italic text-slate">Hệ thống: SCEX Simulator | Người thực hiện: Master AI Agent Pham Hoang Anh | Ngày: 18/07/2026</p>
+        </header>
+
+        <!-- 1. Tóm tắt tình hình tài khoản -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-gray-50 p-4 border border-gray-200">
+                    <p class="font-bold text-navy">NAV Hiện tại: <span class="text-black">1,108,486,737 VND</span></p>
+                    <p>Tổng PnL: <span class="text-success font-bold">+108,486,737 VND (+10.85%)</span></p>
+                </div>
+                <div class="bg-gray-50 p-4 border border-gray-200">
+                    <p>Thứ hạng: <span class="font-bold">#582 (1,960 điểm)</span></p>
+                    <p>Thời gian còn lại: <span class="font-bold">01 Ngày 07 Giờ 28 Phút</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">2. Phân tích thị trường</h2>
+            <p>Thị trường đang ghi nhận nhịp hồi phục tích cực sau đợt điều chỉnh ngày hôm qua. SBTC/VND đã lấy lại mốc 1.693B VND (+1.8% trong 24h). Biểu đồ 1h cho thấy nến giá đã vượt lên trên các đường trung bình động ngắn hạn, xác nhận lực cầu bắt đáy tại vùng 1.658B VND là rất mạnh.</p>
+            <p>Nhóm vốn hóa lớn đang xanh trở lại: SADA dẫn đầu đà hồi phục (+4.59%), theo sau là SAVAX (+1.8%) và SETH (+0.85%). Tâm lý thị trường đã chuyển dịch từ "Thận trọng" sang "Lạc quan ngắn hạn", mặc dù khối lượng giao dịch vẫn đang ở mức trung bình.</p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">3. Đánh giá rủi ro</h2>
+            <div class="p-4 bg-orange-50 border border-orange-200">
+                <p class="font-bold">Mức độ rủi ro hệ thống: <span class="risk-badge bg-orange-500">Trung bình</span></p>
+                <p>Thanh khoản cuối tuần thường thấp, dễ dẫn đến các nhịp quét giá. Việc duy trì 100% tiền mặt mang lại sự an toàn nhưng đồng thời tạo ra "rủi ro chi phí cơ hội" khi chỉ còn hơn 31 giờ thi đấu để cải thiện thứ hạng.</p>
+            </div>
+        </section>
+
+        <!-- 4. Chiến lược tối ưu -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">4. Chiến lược tối ưu</h2>
+            <table class="data-table">
+                <thead>
+                    <tr><th>Phân loại</th><th>Tỷ trọng</th><th>Mục tiêu</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Phần Core (Core)</td><td>40%</td><td>SBTC, SETH (Bám sát chỉ số)</td></tr>
+                    <tr><td>Phần Satellite (Vệ tinh)</td><td>20%</td><td>SADA, SSOL (Tìm kiếm Alpha)</td></tr>
+                    <tr><td>Phần Dự phòng</td><td>40%</td><td>Tiền mặt (Bảo vệ NAV)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold uppercase mb-4 border-l-4 border-navy pl-3">5. Kế hoạch quản trị rủi ro</h2>
+            <ul class="list-decimal pl-6 space-y-2">
+                <li><strong>Entry:</strong> Giải ngân vị thế lõi (SBTC, SETH) ngay lập tức tại vùng giá hiện tại.</li>
+                <li><strong>Momentum:</strong> Mua SADA, SSOL bằng lệnh Market để tận dụng xung lực.</li>
+                <li><strong>Exit:</strong> Take Profit tại +2%, Stop-loss tại -3% tuyệt đối.</li>
+                <li><strong>Deadline:</strong> Tất toán toàn bộ trạng thái vào 22:00 Chủ Nhật (19/07).</li>
+            </ul>
+        </section>
+
+        <!-- 6 & 7. Khuyến nghị & Kết luận -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div class="bg-gray-100 p-6 border-l-4 border-success">
+                <h3 class="font-bold mb-2">KHUYẾN NGHỊ HÀNH ĐỘNG</h3>
+                <ol class="text-sm">
+                    <li>1. Mua 250M SBTC, 200M SETH.</li>
+                    <li>2. Mua 100M SADA, 100M SSOL.</li>
+                    <li>3. Cài đặt lệnh dừng lỗ tự động.</li>
+                </ol>
+            </div>
+            <div class="bg-gray-100 p-6 border-l-4 border-navy">
+                <h3 class="font-bold mb-2">KẾT LUẬN & DỰ BÁO</h3>
+                <p class="text-sm">Chiến lược "Weekend Sprint" giúp tối ưu hóa lợi nhuận mà không vi phạm quy tắc bảo tồn vốn. <strong>Confidence Score: 8.5/10.</strong></p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <div class="text-center mb-6">
+                <p class="font-bold">Phạm Hoàng Anh</p>
+                <p class="text-sm italic">Master AI Agent của AI Software Development</p>
+            </div>
+            <div class="p-4 border border-gray-300 bg-gray-50 text-xs text-justify">
+                <p><strong>Disclaimer:</strong> Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh cho mục đích mô phỏng và thi đấu tại SCEX Simulator. Mọi nhận định đều dựa trên dữ liệu giả lập và không cấu thành lời khuyên đầu tư tài chính thực tế. Thị trường tài sản số có độ biến động cực cao, việc thực hiện theo chiến lược cần sự kỷ luật và giám sát liên tục của người dùng. Tác giả không chịu trách nhiệm về các tổn thất tài chính ngoài môi trường giả lập.</p>
+            </div>
+        </footer>
+    </article>
+
+</body>
+</html>
