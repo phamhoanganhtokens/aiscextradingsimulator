@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích & Chiến Lược Giao Dịch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #ffffff;
+            padding: 3rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #002366;
+            font-weight: 700;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th {
+            background-color: #f9fafb;
+            padding: 0.75rem;
+            border: 1px solid #d1d5db;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        td {
+            padding: 0.75rem;
+            border: 1px solid #d1d5db;
+        }
+
+        .risk-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="report-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy-900 pb-6 mb-8 text-center">
+            <h2 class="text-sm uppercase tracking-widest text-slate-600">AI Software Development</h2>
+            <h3 class="text-lg font-bold">AI Trading Simulator</h3>
+            <a href="www.phamhoanganhtokens.com" class="text-blue-800 underline text-sm">www.phamhoanganhtokens.com</a>
+            <h1 class="text-3xl mt-6 uppercase">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="text-center italic mt-2">Ngày: 20 Tháng 7, 2026</p>
+        </header>
+
+        <!-- 1. Tóm tắt tài khoản -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-gray-50 border border-gray-200">
+                    <p class="font-bold text-gray-700">Net Asset Value (NAV):</p>
+                    <p class="text-xl">1,119,699,723 VND</p>
+                </div>
+                <div class="p-4 bg-gray-50 border border-gray-200">
+                    <p class="font-bold text-gray-700">Total Return (PnL):</p>
+                    <p class="text-xl text-green-700">+11.97% (+119,699,723 VND)</p>
+                </div>
+                <div class="p-4 bg-gray-50 border border-gray-200 col-span-1 md:col-span-2">
+                    <p class="font-bold text-gray-700">Trạng thái:</p>
+                    <p class="italic text-slate-600">SECURED PROFITS (ĐÃ CHỐT LỜI). Toàn bộ danh mục đã được đưa về trạng thái thanh khoản tuyệt đối sau nhịp tăng trưởng hôm nay.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">2. Phân tích thị trường</h2>
+            <h3 class="font-bold text-lg">Góc nhìn Kỹ thuật:</h3>
+            <p>SBTC/VND đang có nhịp hồi phục ấn tượng trong ngắn hạn. Sau khi chạm mức thấp cục bộ ~1.688 tỷ VND, giá đã bật mạnh và đang thử thách ngưỡng kháng cự 1.734 tỷ VND. Chỉ số RSI dao động quanh mức 47.3 (Trung tính), cho thấy thị trường vẫn còn dư địa cho nỗ lực phục hồi.</p>
+            <h3 class="font-bold text-lg mt-4">Góc nhìn Tâm lý:</h3>
+            <p>Chỉ số Fear & Greed hiện tại là 35 (Sợ hãi). Việc chốt lời khi thị trường vẫn đang trong vùng tâm lý này là một chiến lược an toàn, giúp nhà đầu tư nắm thế chủ động.</p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">3. Đánh giá rủi ro</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hạng mục</th>
+                        <th>Đánh giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rủi ro hệ thống</td>
+                        <td><span class="risk-badge bg-green-100 text-green-800">Thấp</span></td>
+                    </tr>
+                    <tr>
+                        <td>Rủi ro chi phí cơ hội</td>
+                        <td><span class="risk-badge bg-red-100 text-red-800">Trung bình</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược tối ưu -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">4. Chiến lược tối ưu</h2>
+            <p>Áp dụng mô hình Core-Satellite. Mục tiêu tái thiết lập vị thế 50% Crypto / 50% Cash trong 24h tới, không mua đuổi (FOMO) tại vùng kháng cự.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tài sản</th>
+                        <th>Vùng giải ngân</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SBTC</td>
+                        <td>1.710 - 1.715 tỷ VND</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị rủi ro -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">5. Kế hoạch quản trị rủi ro</h2>
+            <ul class="list-disc ml-5 space-y-2">
+                <li>Thiết lập Stop-loss tuyệt đối ở mức -5% cho mọi vị thế mới.</li>
+                <li>Không để NAV tụt sâu dưới ngưỡng 1.1 tỷ VND.</li>
+            </ul>
+        </section>
+
+        <!-- 6. Khuyến nghị hành động -->
+        <section class="mb-10">
+            <h2 class="text-2xl border-b border-gray-300 pb-2 mb-4">6. Khuyến nghị hành động</h2>
+            <ol class="list-decimal ml-5 space-y-2">
+                <li>Đặt lệnh Limit Orders cho SBTC (1.712 tỷ VND) và SETH (48.9 triệu VND).</li>
+                <li>Giải ngân 20% NAV cho các mã Altcoin (SSOL, SBNB) khi xác nhận đáy.</li>
+            </ol>
+        </section>
+
+        <!-- 7. Kết luận & Dự báo -->
+        <section class="mb-10 bg-blue-50 p-6 border-l-4 border-blue-900">
+            <h2 class="text-2xl pb-2 mb-2">7. Kết luận & Dự báo</h2>
+            <p>Tâm lý thị trường đang chuyển biến tích cực dần. Với trạng thái 99.99% tiền mặt, tài khoản đang trong trạng thái tối ưu để tái entry.</p>
+            <p class="font-bold">Confidence Score: <span class="text-blue-900">85/100</span></p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-6 border-t border-gray-300">
+            <p class="font-bold">Phạm Hoàng Anh — Master AI Agent của AI Software Development</p>
+            <div class="mt-6 p-4 border border-gray-400 bg-gray-100 text-xs italic text-slate-700">
+                <strong>Disclaimer:</strong> Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh cho mục đích mô phỏng tại "Phổ cập tài sản số 2026". Kết quả giao dịch mô phỏng không đảm bảo lợi nhuận trong thực tế. Thị trường tài sản mã hóa có độ biến động cực cao, yêu cầu sự kỷ luật và quản trị rủi ro chặt chẽ.
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
