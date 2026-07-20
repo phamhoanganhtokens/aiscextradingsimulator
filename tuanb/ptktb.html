@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích & Chiến Lược Giao Dịch - AI Trading Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 3rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #002366;
+            font-weight: 700;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .navy-header {
+            color: #002366;
+            border-bottom: 2px solid #002366;
+        }
+
+        .risk-badge {
+            background-color: #fee2e2;
+            color: #b91c1c;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+            color: #002366;
+        }
+
+        td {
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+        }
+
+        .disclaimer-box {
+            border: 1px solid #94a3b8;
+            padding: 1rem;
+            background-color: #f9fafb;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <main class="report-container">
+        <!-- Header -->
+        <header class="mb-10 text-center">
+            <h2 class="text-xl font-bold uppercase tracking-widest text-[#002366]">AI Software Development</h2>
+            <p class="text-sm italic">Sản phẩm: AI Trading Simulator | <a href="www.phamhoanganhtokens.com" target="_blank" class="text-blue-700 underline">www.phamhoanganhtokens.com</a></p>
+            <h1 class="text-3xl mt-6 uppercase border-y-2 border-[#002366] py-4">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="mt-4 font-bold text-gray-600">Báo cáo chiến lược tài chính tổng hợp - Chiến dịch "Gom hàng đầu tuần"</p>
+            <p class="text-sm italic">Người thực hiện: Master AI Agent Pham Hoang Anh | Thời điểm: Tháng 7, 2026</p>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4 navy-header">1. Tóm tắt tình hình tài khoản</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-gray-50 p-4 border-l-4 border-[#002366]">
+                    <p class="text-sm text-gray-500 uppercase">Giá trị NAV</p>
+                    <p class="text-xl font-bold">1,108,357,109 VND</p>
+                </div>
+                <div class="bg-gray-50 p-4 border-l-4 border-green-600">
+                    <p class="text-sm text-gray-500 uppercase">Lợi nhuận (PnL)</p>
+                    <p class="text-xl font-bold text-green-700">+10.84%</p>
+                </div>
+                <div class="bg-gray-50 p-4 border-l-4 border-yellow-600">
+                    <p class="text-sm text-gray-500 uppercase">Trạng thái</p>
+                    <p class="text-xl font-bold">Full Exposure</p>
+                </div>
+            </div>
+            <p class="mt-4">Tài khoản đang ở trạng thái tiếp cực tối đa với thị trường. Việc NAV tăng trưởng trên 10% là một lợi thế lớn, tuy nhiên, việc cạn kiệt tiền mặt khiến tài khoản mất đi tính linh hoạt cho kế hoạch "gom hàng đầu tuần".</p>
+        </section>
+
+        <!-- 2. Phân tích thị trường -->
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4 navy-header">2. Phân tích thị trường</h2>
+            <p><strong>Góc nhìn Kỹ thuật:</strong> Chỉ số RSI trung bình ở mức 45.46 (Trung tính), cho thấy thị trường không quá bán cũng không quá mua. SBTC (1,702 tỷ) và SETH (49.5 triệu) đang đi ngang tích lũy sau nhịp giảm nhẹ 0.43% của vốn hóa toàn cầu.</p>
+            <p><strong>Góc nhìn Tâm lý:</strong> Chỉ số Fear & Greed đang ở mức 34 (Sợ hãi). Theo lý thuyết tài chính hành vi, đây là thời điểm "mua khi người khác sợ hãi". Tâm lý thận trọng đang bao trùm, tạo điều kiện thuận lợi cho các nhà đầu tư dài hạn thực hiện tích lũy.</p>
+        </section>
+
+        <!-- 3. Đánh giá rủi ro -->
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4 navy-header">3. Đánh giá rủi ro</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Loại rủi ro</th>
+                        <th>Mức độ</th>
+                        <th>Chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thanh khoản</td>
+                        <td><span class="risk-badge">Cực cao</span></td>
+                        <td>0 VND tiền mặt, không thể giải ngân mới.</td>
+                    </tr>
+                    <tr>
+                        <td>Tập trung</td>
+                        <td>Trung bình</td>
+                        <td>Danh mục chỉ có SBTC và SETH.</td>
+                    </tr>
+                    <tr>
+                        <td>Sụt giảm (Drawdown)</td>
+                        <td>Cao</td>
+                        <td>Không có tiền mặt để trung bình giá (DCA).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Chiến lược tối ưu -->
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4 navy-header">4. Chiến lược Core-Satellite</h2>
+            <p>Chuyển đổi từ mô hình "Full Core" sang "Core-Satellite" linh hoạt để cân bằng tăng trưởng và dự phòng.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Phần danh mục</th>
+                        <th>Tỷ trọng</th>
+                        <th>Mục tiêu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Core (SBTC/SETH)</td>
+                        <td>70%</td>
+                        <td>Trục xương sống bảo vệ NAV</td>
+                    </tr>
+                    <tr>
+                        <td>Satellite (Altcoins)</td>
+                        <td>20%</td>
+                        <td>Tối ưu hiệu suất Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Cash Reserve</td>
+                        <td>10%</td>
+                        <td>Ứng phó biến động bất ngờ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5 & 6. Kế hoạch & Khuyến nghị -->
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4 navy-header">5. Kế hoạch thực thi & Khuyến nghị</h2>
+            <div class="space-y-4">
+                <div class="bg-blue-50 p-4 border border-blue-200">
+                    <p class="font-bold">Bước 1: Tạo thanh khoản</p>
+                    <p>Bán 20% SBTC và 10% SETH để thu hồi ~220,000,000 VND.</p>
+                </div>
+                <div class="bg-blue-50 p-4 border border-blue-200">
+                    <p class="font-bold">Bước 2: Gom hàng</p>
+                    <p>Giải ngân 150,000,000 VND vào SSOL (Solana), SBNB (Binance Coin), SADA (Cardano).</p>
+                </div>
+                <div class="bg-red-50 p-4 border border-red-200">
+                    <p class="font-bold">Bước 3: Phòng thủ</p>
+                    <p>Đặt Stop-loss 5-7% cho vị thế mới. Duy trì quỹ dự phòng 70,000,000 VND.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Kết luận -->
+        <section class="mb-10">
+            <h2 class="text-2xl mb-4 navy-header">6. Kết luận & Dự báo</h2>
+            <div class="bg-gray-900 text-white p-6 rounded-lg shadow-inner">
+                <p class="text-white text-justify">Cơ cấu lại danh mục để tối ưu hóa vị thế trong môi trường sợ hãi của thị trường là cần thiết. Sự linh hoạt trong quản trị vốn sẽ quyết định thành bại của chiến dịch tuần này.</p>
+                <div class="mt-4 pt-4 border-t border-gray-700">
+                    <span class="text-sm text-gray-400">Confidence Score:</span>
+                    <span class="ml-2 font-bold text-green-400">85/100 (Khả thi cao)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-8 border-t border-gray-300">
+            <p class="font-bold text-[#002366]">Phạm Hoàng Anh</p>
+            <p class="italic text-gray-600">Master AI Agent của AI Software Development</p>
+            
+            <div class="disclaimer-box mt-8">
+                <p class="font-bold underline mb-2">Miễn trừ trách nhiệm:</p>
+                <p>Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh cho mục đích mô phỏng tại "Phổ cập tài sản số 2026". Mọi quyết định giải ngân 100% vốn vào tài sản số cần được kiểm soát chặt chẽ bằng kỷ luật cắt lỗ. Kết quả trong môi trường giả lập không đảm bảo lợi nhuận trong thực tế. Hãy luôn ưu tiên bảo vệ vốn (NAV).</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
