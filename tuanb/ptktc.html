@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Tài Chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f3f4f6;
+            color: #1a1a1a;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 60px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navy-header { color: #002366; }
+        .slate-text { color: #4a4a4a; }
+        .justify-text { text-align: justify; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #f8fafc;
+            border-bottom: 2px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 12px;
+        }
+        
+        .badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        .badge-red { background: #fee2e2; color: #991b1b; }
+        .badge-green { background: #dcfce7; color: #166534; }
+    </style>
+</head>
+<body>
+
+<div class="report-container">
+    <!-- Header -->
+    <header class="text-center mb-12">
+        <p class="text-sm uppercase tracking-widest font-bold navy-header">AI Software Development</p>
+        <h1 class="text-3xl font-bold navy-header my-4">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+        <p class="text-lg">AI Trading Simulator | <a href="www.phamhoanganhtokens.com" target="_blank" class="text-blue-800 underline">www.phamhoanganhtokens.com</a></p>
+        <div class="mt-6 border-t border-b border-gray-300 py-2 flex justify-between text-sm slate-text">
+            <span>Mã báo cáo: SCEX-ARB-20260720-2015</span>
+            <span>Ngày: 20/07/2026</span>
+        </div>
+    </header>
+
+    <!-- 1. Account Summary -->
+    <section class="mb-10">
+        <h2 class="text-xl font-bold navy-header mb-4 border-l-4 border-blue-900 pl-3">1. Tóm tắt tình hình tài khoản</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 bg-slate-50 border border-slate-200">
+                <p class="text-sm slate-text">NAV (VND)</p>
+                <p class="text-xl font-bold">1,109,573,173</p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-200">
+                <p class="text-sm slate-text">Lợi nhuận (PnL)</p>
+                <p class="text-xl font-bold text-green-600">+10.96%</p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-200">
+                <p class="text-sm slate-text">Tiền mặt</p>
+                <p class="text-xl font-bold">99.99%</p>
+            </div>
+        </div>
+        <p class="mt-4 justify-text slate-text italic">Đánh giá: Bạn đã thực hiện chốt lời toàn bộ danh mục thành công. Việc giữ 100% cash trong bối cảnh thị trường đang hồi phục kỹ thuật tạo ra rủi ro chi phí cơ hội lớn.</p>
+    </section>
+
+    <!-- 2. Market Analysis -->
+    <section class="mb-10">
+        <h2 class="text-xl font-bold navy-header mb-4 border-l-4 border-blue-900 pl-3">2. Phân tích thị trường</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tài sản</th>
+                    <th>Giá trị (VND)</th>
+                    <th>Biến động</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>SBTC</td><td>1,710,498,000</td><td class="text-green-600">+0.31%</td></tr>
+                <tr><td>SETH</td><td>49,581,000</td><td class="text-green-600">+0.14%</td></tr>
+                <tr><td>SSOL</td><td>2,031,266</td><td class="text-green-600">+0.97%</td></tr>
+                <tr><td>SAVAX</td><td>173,739</td><td class="text-green-600">+2.13%</td></tr>
+            </tbody>
+        </table>
+        <p class="justify-text slate-text">Quan sát về "chênh lệch giữa SCEX và CMC" cho thấy sự tồn tại của độ trễ giá (Price Lag). Đây là cơ hội Arbitrage nội bộ: nếu giá toàn cầu (CMC) đang có xu hướng tăng nhanh hơn giá niêm yết trên Simulator, việc giải ngân ngay lập tức sẽ giúp vị thế đón đầu nhịp cập nhật giá của hệ thống.</p>
+    </section>
+
+    <!-- 3. Risk Assessment -->
+    <section class="mb-10">
+        <h2 class="text-xl font-bold navy-header mb-4 border-l-4 border-blue-900 pl-3">3. Đánh giá rủi ro</h2>
+        <div class="border border-slate-300 p-6">
+            <p><strong>Mức độ rủi ro hiện tại:</strong> <span class="badge badge-green">Thấp (về vốn)</span> / <span class="badge badge-red">Cao (về chiến thuật)</span></p>
+            <p class="mt-2 justify-text slate-text">Với đà hồi phục của nhóm dẫn dắt như SSOL và SAVAX, việc đứng ngoài hoàn toàn sẽ làm giảm khả năng cạnh tranh về hiệu suất tổng thể. Khả năng chịu đựng biến động ở mức cực tốt với 1.1 tỷ VND tiền mặt.</p>
+        </div>
+    </section>
+
+    <!-- 4. Strategy -->
+    <section class="mb-10">
+        <h2 class="text-xl font-bold navy-header mb-4 border-l-4 border-blue-900 pl-3">4. Chiến lược tối ưu (Core-Satellite)</h2>
+        <table>
+            <thead><tr><th>Thành phần</th><th>Tỷ trọng</th><th>Mục tiêu</th></tr></thead>
+            <tbody>
+                <tr><td>Core (SBTC, SETH)</td><td>60%</td><td>Duy trì ổn định NAV</td></tr>
+                <tr><td>Satellite (SSOL, SBNB, SAVAX)</td><td>25%</td><td>Khai thác tăng trưởng Alpha</td></tr>
+                <tr><td>Cash Reserve</td><td>15%</td><td>Quản trị biến động</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 5. Execution Plan -->
+    <section class="mb-10">
+        <h2 class="text-xl font-bold navy-header mb-4 border-l-4 border-blue-900 pl-3">5. Kế hoạch thực thi</h2>
+        <ol class="list-decimal ml-6 space-y-2">
+            <li><strong>Lấy vị thế:</strong> Giải ngân 30% vốn (~330 triệu VND) vào nhóm Core.</li>
+            <li><strong>Khai thác:</strong> Gom thêm SSOL tận dụng "Price Lag" từ CMC.</li>
+            <li><strong>Quản trị:</strong> Thiết lập Stop-loss -5% cho Altcoin; nâng điểm hòa vốn cho lệnh Core.</li>
+        </ol>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="mt-16 pt-8 border-t border-gray-300">
+        <div class="text-right italic mb-8">
+            <p>Trân trọng,</p>
+            <p class="font-bold">Phạm Hoàng Anh</p>
+            <p class="text-sm slate-text">Master AI Agent - AI Software Development</p>
+        </div>
+
+        <div class="p-4 border border-gray-300 bg-gray-50 text-xs text-gray-600 justify-text">
+            <strong>Miễn trừ trách nhiệm:</strong> Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh dựa trên dữ liệu mô phỏng từ SCEX Simulator. Mọi quyết định đầu tư thực tế cần được cân nhắc dựa trên điều kiện thị trường thực tế và khẩu vị rủi ro cá nhân. Giao dịch tài sản mã hóa luôn tiềm ẩn rủi ro cao.
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
