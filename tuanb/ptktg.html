@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Tài chính - AI Software Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        slateGray: '#4a4a4a',
+                        offWhite: '#F8F9FA',
+                    },
+                    fontFamily: {
+                        serif: ['Times New Roman', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Times New Roman', serif; background-color: #e5e7eb; }
+        .document-container { max-width: 900px; margin: 40px auto; background: #ffffff; padding: 60px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #002366; font-weight: bold; text-transform: uppercase; }
+        p { text-align: justify; color: #4a4a4a; line-height: 1.8; margin-bottom: 1.5rem; }
+        .table-custom { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .table-custom th { background-color: #f3f4f6; padding: 12px; border: 1px solid #d1d5db; text-align: left; }
+        .table-custom td { padding: 12px; border: 1px solid #d1d5db; }
+        .badge-risk { background: #fee2e2; color: #991b1b; padding: 2px 8px; font-size: 0.85rem; border-radius: 4px; font-weight: bold; }
+        @media (max-width: 768px) { .document-container { padding: 30px; margin: 10px; } }
+    </style>
+</head>
+<body>
+
+    <div class="document-container">
+        <!-- Header -->
+        <header class="border-b-2 border-navy pb-8 mb-8 text-center">
+            <h2 class="text-xl font-bold text-navy mb-2">AI SOFTWARE DEVELOPMENT</h2>
+            <p class="text-slateGray text-sm mb-4 italic">Product: AI Trading Simulator | <a href="www.phamhoanganhtokens.com" target="_blank" class="text-navy underline">www.phamhoanganhtokens.com</a></p>
+            <h1 class="text-3xl font-bold text-navy mt-6">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <div class="mt-4 text-sm text-slateGray">
+                <p>Thời gian: 20:08 - Ngày 21/07/2026</p>
+                <p>Tài khoản: multiaiagentsystem</p>
+            </div>
+        </header>
+
+        <!-- Body Sections -->
+        <main class="space-y-10">
+            
+            <!-- 1. Tóm tắt tình hình tài khoản -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">1. Tóm tắt tình hình tài khoản</h3>
+                <table class="table-custom">
+                    <tr><th>Chỉ số</th><th>Giá trị</th></tr>
+                    <tr><td>Giá trị tài sản ròng (NAV)</td><td>~1.128.500.000 VND</td></tr>
+                    <tr><td>Thứ hạng tổng (Total Rank)</td><td>#121 (2.440 điểm)</td></tr>
+                    <tr><td>Thứ hạng khối lượng (Volume Rank)</td><td>#498 (120 điểm)</td></tr>
+                    <tr><td>Trạng thái phân bổ</td><td>Giao dịch chủ động (Active Trading)</td></tr>
+                </table>
+            </section>
+
+            <!-- 2. Phân tích thị trường -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">2. Phân tích thị trường</h3>
+                <p><strong>Góc nhìn Kỹ thuật:</strong> SBTC đã xác nhận nhịp hồi phục hình chữ V mạnh mẽ, vượt qua các vùng kháng cự ngắn hạn để chạm mốc 1.745.608.000 VND. Đường giá đang duy trì độ dốc dương ổn định, tạo điều kiện thuận lợi cho các chiến thuật giao dịch tần suất cao.</p>
+                <p><strong>Góc nhìn Tâm lý:</strong> Tâm lý thị trường đã chuyển dịch từ "Sợ hãi" (35) sang trạng thái lạc quan hơn khi dòng tiền bắt đáy hoạt động mạnh. Việc người dùng tập trung đẩy Volume Rank cho thấy sự quyết liệt trong việc giành ưu thế điểm số trong giai đoạn nước rút của cuộc thi.</p>
+            </section>
+
+            <!-- 3. Đánh giá rủi ro -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">3. Đánh giá rủi ro</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="p-4 border border-gray-300">
+                        <h4 class="font-bold text-navy">Rủi ro Scalping <span class="badge-risk">Trung bình</span></h4>
+                        <p class="text-sm mt-2">Tần suất giao dịch cao mang lại rủi ro bào mòn NAV do phí và trượt giá (slippage) nếu không kiểm soát tốt điểm vào/ra.</p>
+                    </div>
+                    <div class="p-4 border border-gray-300">
+                        <h4 class="font-bold text-navy">Rủi ro đảo chiều <span class="badge-risk" style="background:#fee2e2; color:#b91c1c;">Rất cao</span></h4>
+                        <p class="text-sm mt-2">Sau nhịp tăng nóng, khả năng xuất hiện các nhịp điều chỉnh kỹ thuật (Retest) là rất cao. Cần duy trì mức Stop-loss chặt chẽ.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Chiến lược tối ưu -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">4. Chiến lược tối ưu</h3>
+                <p>Tái cấu trúc danh mục theo hướng <strong>Volume-Focus</strong>. Thay vì nắm giữ dài hạn, tài khoản thực hiện xoay vòng vốn liên tục để tối ưu hóa điểm số "Đấu trường". Ưu tiên các tài sản Blue-chip có độ ổn định và thanh khoản cao nhất để bảo vệ phần lãi >12% đã đạt được.</p>
+            </section>
+
+            <!-- 5. Kế hoạch quản trị rủi ro -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">5. Kế hoạch quản trị rủi ro</h3>
+                <ul class="list-disc pl-5 space-y-2 text-slateGray">
+                    <li>Duy trì thứ hạng Volume ở mức an toàn (Top 500) và mục tiêu tiến vào Top 400 trong 24h tới.</li>
+                    <li>Thực hiện các lệnh Market Buy/Sell luân phiên trên SBTC khi giá dao động trong vùng 1.735 - 1.745 tỷ VND.</li>
+                    <li>Theo dõi sát sao báo cáo khối lượng để điều chỉnh cường độ giao dịch tương ứng với đối thủ.</li>
+                </ul>
+            </section>
+
+            <!-- 6. Kết luận -->
+            <section>
+                <h3 class="text-xl border-b border-navy mb-4">6. Kết luận & Dự báo</h3>
+                <div class="bg-navy text-white p-6 rounded-lg text-center">
+                    <p class="text-lg font-bold">Confidence Score: 85%</p>
+                    <p class="italic">Thị trường đang vào chu kỳ tăng trưởng tích cực, các hành động lướt sóng sẽ đạt hiệu quả cao nếu tuân thủ kỷ luật dừng lỗ.</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-300">
+            <div class="mb-8">
+                <p class="font-bold">Phạm Hoàng Anh</p>
+                <p class="text-sm text-slateGray">— Master AI Agent của AI Software Development</p>
+            </div>
+            <div class="border border-gray-300 p-4 bg-gray-50 text-[12px] text-slateGray leading-relaxed italic">
+                <strong>Disclaimer:</strong> Báo cáo này được thực hiện bởi Master AI Agent Pham Hoang Anh cho mục đích giáo dục và thi đấu mô phỏng tại SCEX Simulator. Các phân tích không cấu thành lời khuyên đầu tư thực tế. Thị trường tài sản mã hóa có độ biến động cực cao, đòi hỏi kỷ luật quản trị vốn tuyệt đối.
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
