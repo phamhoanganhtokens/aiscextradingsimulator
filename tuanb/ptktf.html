@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Thị trường & Chiến lược Giao dịch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f3f4f6;
+            color: #1a1a1a;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 60px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Times New Roman', serif;
+            color: #002366;
+            text-transform: uppercase;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .nav-link {
+            color: #002366;
+            text-decoration: underline;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #002366;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .table-custom {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .table-custom th, .table-custom td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .table-custom th {
+            background-color: #f8fafc;
+            color: #002366;
+        }
+
+        .risk-badge {
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 2px 8px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .disclaimer-box {
+            border: 1px solid #d1d5db;
+            padding: 20px;
+            background-color: #f9fafb;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="report-container">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h2 class="text-sm tracking-widest text-slate-500 mb-2">AI SOFTWARE DEVELOPMENT</h2>
+            <h1 class="text-3xl font-bold mb-1">BÁO CÁO PHÂN TÍCH & CHIẾN LƯỢC GIAO DỊCH</h1>
+            <p class="text-md text-slate-600 mt-2">Sản phẩm: AI Trading Simulator | <a href="www.phamhoanganhtokens.com" class="nav-link">www.phamhoanganhtokens.com</a></p>
+            <div class="mt-6 border-t border-b border-slate-300 py-2">
+                <p class="font-bold">Chuyên gia: Master AI Agent Phạm Hoàng Anh</p>
+                <p class="text-sm italic">Thời gian: 14:11 | Ngày 21 tháng 07 năm 2026</p>
+            </div>
+        </header>
+
+        <!-- 1. Tóm tắt -->
+        <section class="mb-10">
+            <h2 class="section-title">1. Tóm tắt tình hình tài khoản</h2>
+            <table class="table-custom">
+                <tr>
+                    <th>Chỉ số</th>
+                    <th>Giá trị</th>
+                </tr>
+                <tr>
+                    <td>Tổng tài sản ròng (NAV)</td>
+                    <td class="font-bold">1,127,782,149 VND</td>
+                </tr>
+                <tr>
+                    <td>PnL hôm nay</td>
+                    <td class="text-green-700 font-bold">+8,082,434 VND (+0.72%)</td>
+                </tr>
+                <tr>
+                    <td>Vốn gốc ban đầu</td>
+                    <td>1,000,000,000 VND (+12.77%)</td>
+                </tr>
+                <tr>
+                    <td>Cấu trúc hiện tại</td>
+                    <td>100% Tiền mặt (Phòng thủ)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 2. Phân tích -->
+        <section class="mb-10">
+            <h2 class="section-title">2. Phân tích thị trường</h2>
+            <p><strong>Góc nhìn Kỹ thuật:</strong> BTC đang giao dịch ở mức ~1.73 - 1.74 tỷ VND, ghi nhận mức tăng nóng khoảng 2.8% - 3.14% trong 24h qua. Trên khung 15m, BTC đã có nhịp bứt phá mạnh từ vùng 1.69 tỷ VND lên đỉnh 1.74 tỷ VND, phá vỡ các đường trung bình động (MA) ngắn hạn với xung lực lớn. Khối lượng giao dịch 24h tăng đột biến +77.93%, xác nhận dòng tiền đang đổ vào mạnh mẽ.</p>
+            <p><strong>Góc nhìn Tâm lý & Vĩ mô:</strong> Dữ liệu vĩ mô cho thấy BTC đang tăng đồng pha với Vàng trong buổi trưa. Đây là tín hiệu cho thấy dòng tiền đang tìm kiếm tài sản trú ẩn an toàn (Safe-haven). Tuy nhiên, điểm nghẽn tâm lý xuất hiện: "Cá voi BTC và ETH hàng đầu ngừng mua". Sự phân kỳ giữa giá và hành vi dòng tiền lớn là tín hiệu cảnh báo rủi ro phân phối ngắn hạn.</p>
+        </section>
+
+        <!-- 3. Rủi ro -->
+        <section class="mb-10">
+            <h2 class="section-title">3. Đánh giá rủi ro</h2>
+            <div class="p-4 bg-slate-50 border-l-4 border-red-600">
+                <p><strong>Rủi ro Mua đuổi (FOMO):</strong> Việc gia nhập tại vùng giá 1.74 tỷ VND ngay sau cột nến dựng đứng mang <span class="risk-badge">RẤT CAO</span> rủi ro điều chỉnh (pullback). Chỉ số RSI khả năng đã tiến vào vùng quá mua.</p>
+                <p><strong>Rủi ro Cơ hội:</strong> Việc giữ 100% tiền mặt tuy bỏ lỡ nhịp tăng +3% nhưng giúp bảo toàn tuyệt đối thành quả lợi nhuận tích lũy >12%.</p>
+            </div>
+        </section>
+
+        <!-- 4. Chiến lược -->
+        <section class="mb-10">
+            <h2 class="section-title">4. Chiến lược tối ưu</h2>
+            <table class="table-custom">
+                <thead>
+                    <tr>
+                        <th>Hạng mục</th>
+                        <th>Chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Trạng thái</td>
+                        <td>Bảo toàn vốn & Kiên nhẫn</td>
+                    </tr>
+                    <tr>
+                        <td>Phân bổ</td>
+                        <td>100% VND (Tạm ngưng giao dịch)</td>
+                    </tr>
+                    <tr>
+                        <td>Mục tiêu</td>
+                        <td>Chờ xác nhận phân phối/tích lũy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Kế hoạch quản trị -->
+        <section class="mb-10">
+            <h2 class="section-title">5. Kế hoạch quản trị rủi ro</h2>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Không FOMO:</strong> Tuyệt đối không mua mới khi giá đang ở vùng đỉnh ngắn hạn chưa có kiểm định.</li>
+                <li><strong>Theo dõi Correlation:</strong> Giám sát sự tương quan giữa Vàng và BTC trong phiên chiều.</li>
+                <li><strong>Dữ liệu On-chain:</strong> Quan sát hành động xả/gom từ ví cá voi để xác định điểm quay đầu.</li>
+            </ul>
+        </section>
+
+        <!-- 6. Khuyến nghị -->
+        <section class="mb-10">
+            <h2 class="section-title">6. Khuyến nghị hành động</h2>
+            <ol class="list-decimal pl-6 space-y-2">
+                <li>Duy trì 100% tiền mặt (VND).</li>
+                <li>Thiết lập lệnh chờ (Buy Zone): 1.690.000.000 - 1.705.000.000 VND.</li>
+                <li>Theo dõi biến động thị trường phiên Mỹ (nếu có) trước khi quyết định giải ngân.</li>
+            </ol>
+        </section>
+
+        <!-- 7. Kết luận -->
+        <section class="mb-10 p-6 bg-navy-900 border border-blue-900">
+            <h2 class="section-title">7. Kết luận & Dự báo</h2>
+            <p>Thị trường đang ở giai đoạn hưng phấn quá mức cần thiết. Dự báo khả năng có nhịp điều chỉnh kỹ thuật để kiểm tra lại các vùng hỗ trợ cứng. Chỉ số tự tin: <strong>85%</strong>.</p>
+        </section>
+
+        <!-- Signature -->
+        <div class="mt-12 text-right">
+            <p>Trân trọng,</p>
+            <p class="font-bold">Phạm Hoàng Anh</p>
+            <p class="italic text-sm">Master AI Agent của AI Software Development</p>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer-box">
+            <p><strong>Disclaimer:</strong> Báo cáo này được tự động tạo bởi Master AI Agent Phạm Hoàng Anh dựa trên dữ liệu cung cấp. Mọi quyết định giao dịch mô phỏng hoặc thực tế đều đi kèm rủi ro thị trường. Nhà đầu tư cần cân nhắc kỹ lưỡng trước khi đưa ra các quyết định dựa trên báo cáo này. Chúng tôi không chịu trách nhiệm về các thua lỗ phát sinh từ việc áp dụng chiến lược.</p>
+        </div>
+    </div>
+
+</body>
+</html>
